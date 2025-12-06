@@ -158,9 +158,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-    console.print("\nSee README.md for more information.")
-
-
-if __name__ == "__main__":
-    main()
