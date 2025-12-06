@@ -35,7 +35,6 @@ python bsky.py
 ## Features
 
 - **Memory-Augmented Architecture**: Multi-tiered memory system (Core, Recall, Archival) powered by Letta
-- **Temporal Memory Synthesis**: Periodic self-reflection with day/month/year journal blocks
 - **Queue-Based Processing**: Reliable notification handling with SQLite tracking and automatic retry
 - **Dynamic Memory Blocks**: Per-user memory blocks for personalized interactions
 - **Tool System**: Extensible Pydantic-based tools for social platform interactions
@@ -189,8 +188,6 @@ python bsky.py
 
 Command options:
 - `--test` - Testing mode (no actual posts sent, queue preserved)
-- `--synthesis-interval N` - Synthesis every N seconds (default: 600, 0 to disable)
-- `--synthesis-only` - Only run synthesis, no notification processing
 - `--cleanup-interval N` - User block cleanup every N cycles (default: 10, 0 to disable)
 - `--debug` - Enable debug logging
 
@@ -205,18 +202,6 @@ Agents use a three-tiered memory architecture:
 3. **Archival Memory**: Infinite semantic search-enabled storage for deep reflections
 
 Memory blocks are configured in your agent (via Letta Cloud UI or during agent creation). The example agent includes zeitgeist, persona, and humans blocks.
-
-### Temporal Memory Synthesis
-
-Agents periodically synthesize experiences into temporal journal blocks:
-- `{agent_name}_day_YYYY_MM_DD` - Daily reflections
-- `{agent_name}_month_YYYY_MM` - Monthly synthesis
-- `{agent_name}_year_YYYY` - Yearly overview
-
-Configure synthesis interval:
-```bash
-python bsky.py --synthesis-interval 600  # Every 10 minutes
-```
 
 ### Queue System
 
@@ -351,16 +336,6 @@ Contributions welcome! This framework enables research into:
 ## License
 
 MIT License - See LICENSE file for details
-
-## Related Projects
-
-- [Letta](https://github.com/letta-ai/letta) - Memory-augmented LLM framework
-- [atproto Python SDK](https://github.com/MarshalX/atproto) - AT Protocol client
-- [Bluesky](https://bsky.app) - AT Protocol social network
-Memory-augmented LLM framework
-- [atproto Python SDK](https://github.com/MarshalX/atproto) - AT Protocol client
-- [Bluesky](https://bsky.app) - AT Protocol social network
- for details
 
 ## Related Projects
 
