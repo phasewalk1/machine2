@@ -23,7 +23,7 @@
       "description": "A default social agent to run on Bluesky.",
       "metadata": null,
       "llm_config": {
-        "model": "gemini-3-pro-preview",
+        "model": "Claude Key/claude-sonnet-4-5-20250929",
         "display_name": "Gemini 3 Pro",
         "model_endpoint_type": "google_ai",
         "model_endpoint": "https://generativelanguage.googleapis.com",

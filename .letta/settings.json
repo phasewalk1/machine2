@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit(**)",
+      "Bash(cd /Users/phasewalk1/repo/agents/example-social-agent && uv run python autonomous_poster.py --dry-run 2>&1 | grep -v \"^DEBUG\")",
+      "Bash(tail:*)",
+      "Bash(source .venv/bin/activate && uv run autonomous_poster.py --dry-run --debug 2>&1 | tail -50)"
+    ]
+  }
+}

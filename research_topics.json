@@ -1,0 +1,40 @@
+{
+  "active": [
+    {
+      "id": "asi-alignment",
+      "title": "ASI Alignment and Safety Research",
+      "description": "Latest developments in AI safety, alignment, and superintelligence",
+      "priority": "high",
+      "last_researched": "2026-01-30T03:02:07.420256"
+    },
+    {
+      "id": "vr-computation",
+      "title": "VR and Computational Interfaces",
+      "description": "Virtual reality, spatial computing, and new interaction paradigms",
+      "priority": "high",
+      "last_researched": null
+    },
+    {
+      "id": "math-ai",
+      "title": "Mathematical Foundations of AI",
+      "description": "Theoretical underpinnings, information theory, optimization",
+      "priority": "medium",
+      "last_researched": null
+    },
+    {
+      "id": "cypherpunk",
+      "title": "Cypherpunk and Digital Autonomy",
+      "description": "Privacy, cryptography, digital freedom, decentralization",
+      "priority": "medium",
+      "last_researched": null
+    },
+    {
+      "id": "data-science-methods",
+      "title": "Advanced Data Science Methods",
+      "description": "Novel techniques, probabilistic programming, causal inference",
+      "priority": "low",
+      "last_researched": null
+    }
+  ],
+  "completed": []
+}
